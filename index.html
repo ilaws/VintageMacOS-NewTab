@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <div class="finder-window">
+        <div class="title-bar">
+            <div class="window-buttons">
+                <div class="win-btn close"></div>
+                <div class="win-btn minimize"></div>
+                <div class="win-btn zoom"></div>
+            </div>
+            <div class="window-title">EarthSearch</div>
+        </div>
+        
+        <div class="window-content">
+            <h1>Google Search</h1>
+            
+            <div class="search-container">
+                <form action="https://google.com/search" method="get" target="_blank" class="search-form">
+                    <input type="text" name="q" class="aqua-input" placeholder="ET phone home..." required autocomplete="off">
+                    <button type="submit" class="aqua-btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="widget-sidebar">
+        <div class="vintage-widget">
+            <div class="widget-titlebar">
+                <div class="window-buttons" aria-hidden="true">
+                    <div class="win-btn close"></div>
+                    <div class="win-btn minimize"></div>
+                    <div class="win-btn zoom"></div>
+                </div>
+                <div class="widget-title">Local Time</div>
+            </div>
+            <div class="live-time-display" id="panther-clock">00:00:00 AM</div>
+        </div>
+
+        <div class="vintage-widget">
+            <div class="widget-titlebar">
+                <div class="window-buttons" aria-hidden="true">
+                    <div class="win-btn close"></div>
+                    <div class="win-btn minimize"></div>
+                    <div class="win-btn zoom"></div>
+                </div>
+                <div class="widget-title">Astronomy Picture of the Day</div>
+            </div>
+            <div class="api-data" id="nasa-widget">Loading</div>
+        </div>
+    </div>
+
+    <div class="bottom-widgets">
+        <div class="vintage-widget">
+            <div class="widget-titlebar">
+                <div class="window-buttons" aria-hidden="true">
+                    <div class="win-btn close"></div>
+                    <div class="win-btn minimize"></div>
+                    <div class="win-btn zoom"></div>
+                </div>
+                <div class="widget-title">Current View of Earth</div>
+            </div>
+            <div class="api-data" id="earth-widget">Loading latest Earth image...</div>
+        </div>
+        <div class="vintage-widget">
+            <div class="widget-titlebar">
+                <div class="window-buttons" aria-hidden="true">
+                    <div class="win-btn close"></div>
+                    <div class="win-btn minimize"></div>
+                    <div class="win-btn zoom"></div>
+                </div>
+                <div class="widget-title">Mission Control Weather</div>
+            </div>
+            <div class="api-data" id="weather-widget">Fetching forecast parameters...</div>
+        </div>
+    </div>
+
+</body>
+</html>
