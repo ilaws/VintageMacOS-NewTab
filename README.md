@@ -12,10 +12,12 @@ This is made to look like vintage versions of MacOS. I am currently working on a
 
 ## How to run on your system
 
-Please run locally. I don't know how to set up a .env, nor how to use a gitignore. I don't even know what a git is besides it being in Github's name. If you don't run it locally, there is a risk of your NASA API key getting leaked.
+Please run locally. I don't know how to set up a .env, nor how to use a gitignore. I don't even know what a git is besides it being in Github's name. If you don't run it locally, there is a risk of your NASA API key getting leaked. (Which you don't want to happen).
 
 Basically, all you have to do is place your API key into Config.JS and you should be good to go :).
 
 ## AI Usage Disclaimer
 
 Helped get the API to work. The problem I was facing was a secure connection error, so it helped me reslove that. Also helped in colors/drop shadows for the liquid glass. formatted this readme (this is still my content) but I dont know how to talk markdown 😄
+
+Thank you for looking at my webpage! It is available for viewing at https://newtab.ourdevbox.site
