@@ -12,7 +12,7 @@ This is made to look like vintage versions of MacOS. I am currently working on a
 
 ## How to run on your system
 
-Please run locally. I don't know how to set up a .env, nor how to use a gitignore. I don't even know what a git is besides it being in Github's name. If you don't run it locally, there is a risk of your NASA API key getting leaked. (Which you don't want to happen).
+Please run locally and not on a server. I don't know how to set up a .env, nor how to use a gitignore. I don't even know what a git is besides it being in Github's name. If you don't run it locally, there is a risk of your NASA API key getting leaked. (Which you don't want to happen).
 
 Basically, all you have to do is place your API key into Config.JS and you should be good to go :).
 
